@@ -33,31 +33,39 @@ Web3, the decentralized web, plays a vital role in enhancing federated learning:
 
 ## Workflow of Our Project
 
-### Step 1: Registration
+### Organization Side
 
-- **Users**: Register using their cryptocurrency wallets, creating a secure and verifiable identity.
-- **Organizations**: Register and upload their client.py file, linked to a global model hosted on a cloud platform. The file is deployed on IPFS (using Pinata) and includes a token deposit to reward users.
+#### Step 1: Registration
 
-### Step 2: Model Upload
+- Register and upload their client.py file, linked to a global model hosted on a cloud platform. The file is deployed on IPFS (using Pinata) and includes a token deposit to reward users.
+
+#### Step 2: Model Upload
 
 - Organizations set a reward pool and a deadline for model training.
 - The client.py file is linked to the global model and made available on the platform.
 
-### Step 3: User Participation
+### User Side
+
+#### Step 1: Registration
+
+- Register using their cryptocurrency wallets, creating a secure and verifiable identity.
+
+#### Step 2: Participation
 
 - Users browse available models and stake tokens to participate in the training process.
 - Upon successful staking, users download the client.py file and run it locally to train the model.
 
-### Step 4: Training and Parameter Aggregation
+#### Step 3: Training and Parameter Aggregation
 
 - Users train the model on their local devices using their own data.
 - The client.py file updates the model parameters and sends them to the central server.
 - The central server aggregates the parameters to update the global model.
 
-### Step 5: Reward Distribution
+#### Step 4: Reward Distribution
 
 - Users submit their wallet addresses (encrypted and hashed using SHA-256) to the frontend via WebSockets in real-time.
 - The system verifies the wallet addresses and distributes rewards from the organization's deposit to the successful participants.
+  
 
 ## System Design
 
