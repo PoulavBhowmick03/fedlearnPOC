@@ -57,9 +57,12 @@ Web3, the decentralized web, plays a vital role in enhancing federated learning:
 
 #### Step 3: Training and Parameter Aggregation
 
-- Users train the model on their local devices using their own data.
+- Users train the model on their local devices using their own private data.
+- GET initial parameters from the server where the global model is present.
+- Train the model with local data and SET parameters.
 - The client.py file updates the model parameters and sends them to the central server.
-- The central server aggregates the parameters to update the global model.
+- The central server aggregates the parameters to update the global model and save it. Model is then initialize to the previous state from saved model in the next round of training.
+- Server gives explicit command for training and evaluation, aggregating and managing multiple clients.
 
 #### Step 4: Reward Distribution
 
