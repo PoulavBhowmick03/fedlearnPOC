@@ -6,7 +6,7 @@ In the era of data-driven technologies, the privacy of user data is a critical c
 
 ## What is Federated Learning?
 
-Federated learning is a machine learning approach where model training is distributed across multiple devices or servers. Instead of sending raw data to a central server, each client device trains the model locally on its own data and shares only the updated model parameters with the central server. The central server aggregates these updates to refine the global model.
+Federated learning is a machine learning approach where model training is distributed across multiple devices or servers. Instead of sending raw data to a central server, each client device trains the model locally on its own data and shares only the updated model parameters with the central server. The central server aggregates these updates to refine the global model. Our project uses the Federated Averaging Strategy(FedAvg) to aggregate and configure model parameters.
 
 ### Key Features of Federated Learning
 
