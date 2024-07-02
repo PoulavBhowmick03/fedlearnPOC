@@ -79,7 +79,7 @@ Web3, the decentralized web, plays a vital role in enhancing federated learning:
 
 ### Architecture
 
-1. **User Interface**: Built with Next.js, allowing efficient usage of system resources and better load times through server and client side generation.
+1. **User Interface**: Built with Next.js and framer-motion, allowing efficient usage of system resources and better load times through server and client side generation.
 2. **Backend**: Implemented with Anchor for Solana blockchain integration.
 3. **Storage**: IPFS for storing client.py files and other relevant data.
 4. **Smart Contracts**: Handle staking, training verification, and reward distribution.
