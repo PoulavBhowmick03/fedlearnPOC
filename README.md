@@ -30,6 +30,7 @@ Web3, the decentralized web, plays a vital role in enhancing federated learning:
 - **Security**: Blockchain's immutable ledger provides a secure record of transactions and model updates.
 - **Incentivization**: Smart contracts enable automated and transparent reward distribution for participants.
 - **Transparency**: All transactions and model updates are recorded on the blockchain, ensuring transparency and accountability.
+- **Time based transaction**: Implementing time based transaction for user to complete the model training within the stipulated time or else they won't be eligible for the incentives.
 
 ## Workflow of Our Project
 
@@ -48,7 +49,7 @@ Web3, the decentralized web, plays a vital role in enhancing federated learning:
 
 #### Step 1: Registration
 
-- Register using their cryptocurrency wallets, creating a secure and verifiable identity.
+- Register using their wallets, creating a secure and verifiable identity.
 
 #### Step 2: Participation
 
@@ -83,7 +84,7 @@ Web3, the decentralized web, plays a vital role in enhancing federated learning:
 ### Architecture
 
 1. **User Interface**: Built with Next.js and framer-motion, allowing efficient usage of system resources and better load times through server and client side generation.
-2. **Backend**: Implemented with Anchor for Solana blockchain integration.
+2. **Backend**: Smart Contract or Communicating with the blockchain nodes using JS SDK
 3. **Storage**: IPFS for storing client.py files and other relevant data.
 4. **Smart Contracts**: Handle staking, training verification, and reward distribution.
 
@@ -107,8 +108,8 @@ Our platform offers significant business opportunities:
 
 ### Revenue Model
 
-1. **Transaction Fees**: Small fees on transactions and staking.
-2. **Subscription Plans**: Premium features for organizations.
+1. **Transaction Fees**: Small fees on transactions and staking and distribution of incentives, aka platform fees.
+2. **Subscription Plans**: Premium features for organizations, like access to GANs/diffusers and LLM integrated with the ML model.
 3. **Token Economy**: Native tokens used for staking and rewards, with potential for appreciation.
 
 ### Market Potential
