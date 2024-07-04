@@ -1,4 +1,4 @@
--># Proof of Concept: On-Chain Federated Learning Platform with Proof of Stake Consensus
+# Proof of Concept: On-Chain Federated Learning Platform with Proof of Stake Consensus
 
 ## Introduction
 
