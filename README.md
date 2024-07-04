@@ -86,7 +86,7 @@ Web3, the decentralized web, plays a vital role in enhancing federated learning:
 1. **User Interface**: Built with Next.js and framer-motion, allowing efficient usage of system resources and better load times through server and client side generation.
 2. **Backend**: Smart Contract or Communicating with the blockchain nodes using JS SDK
 3. **Storage**: IPFS for storing client.py files and other relevant data.
-4. **Smart Contracts**: Handle staking, training verification, and reward distribution.
+4. **Smart Contracts**: Handle staking, training verification, and reward distribution, also penalizing malicious users/behaviours.
 
 ### Data Flow
 
@@ -94,7 +94,8 @@ Web3, the decentralized web, plays a vital role in enhancing federated learning:
 2. Organizations upload models, which are stored on IPFS.
 3. Users stake tokens and download the client.py file.
 4. Users train the model locally and submit updates.
-5. Central server aggregates updates and distributes rewards.
+5. Central server aggregates, updates the global model.
+6. The smart contract is called upon successful model training and the user is distributed the rewards/ incentivized.
 
 ## Business Potential
 
